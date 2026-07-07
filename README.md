@@ -129,3 +129,5 @@ bash scripts/restore.sh
 - Infrastructure is organized into reusable Terraform modules.
 - Separate Terraform configurations are provided for development and production.
 - The sample database includes hotel bookings, booking events, and indexes for commonly used queries.
+- The restore script is intended to be used against a fresh local PostgreSQL database.
+- Sample data includes multiple cities, organizations, booking statuses and booking events.
